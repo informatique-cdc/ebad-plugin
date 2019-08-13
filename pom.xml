@@ -5,6 +5,12 @@
     <groupId>fr.icdc.ebad</groupId>
     <artifactId>ebad-plugin</artifactId>
     <version>1.0.3-SNAPSHOT</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 
     <distributionManagement>
         <repository>
