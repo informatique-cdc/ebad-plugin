@@ -8,9 +8,9 @@
 
     <distributionManagement>
         <repository>
-            <id>github</id>
-            <name>GitHub Informatique-cdc Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/informatique-cdc/ebad-plugin</url>
+            <id>bintray-informatique-cdc</id>
+            <name>informatique-cdc</name>
+            <url>https://api.bintray.com/maven/informatique-cdc/informatique-cdc/ebad-plugin/;publish=1</url>
         </repository>
     </distributionManagement>
     <scm>
