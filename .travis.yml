@@ -4,10 +4,11 @@ cache:
     - $HOME/.m2
 jdk:
   - openjdk8
-
+before_install:
+  - cp .travis.settings.xml $HOME/.m2/settings.xml
 deploy:
   provider: script
-  script: "cp .travis.settings.xml $HOME/.m2/settings.xml && mvn deploy"
+  script: "mvn deploy"
   skip_cleanup: true
   on:
     tags: true
