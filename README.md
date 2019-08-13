@@ -1,4 +1,5 @@
 # EBAD Plugin
+[ ![Download](https://api.bintray.com/packages/informatique-cdc/informatique-cdc/ebad-plugin/images/download.svg) ](https://bintray.com/informatique-cdc/informatique-cdc/ebad-plugin/_latestVersion)
 
 EBAD Plugin is a project to build plugins for EBAD.
 
