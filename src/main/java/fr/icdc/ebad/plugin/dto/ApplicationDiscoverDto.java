@@ -7,21 +7,13 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @Data
-@EqualsAndHashCode(exclude = {"norme","id"})
+@EqualsAndHashCode
 @AllArgsConstructor
 @NoArgsConstructor
-@ToString(exclude = "norme")
+@ToString
 @Builder
-public class EnvironnementDiscoverDto {
+public class ApplicationDiscoverDto {
     private String name;
     private String code;
     private String id;
-    private String host;
-    private String login;
-    private String home;
-    private String prefix;
-    private OsKind kindOs;
-    private NormeDiscoverDto norme;
-
-    public enum OsKind {UNIX,WINDOWS,OTHER}
 }
