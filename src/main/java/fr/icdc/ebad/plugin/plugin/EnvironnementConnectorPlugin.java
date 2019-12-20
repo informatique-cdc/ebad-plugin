@@ -8,5 +8,5 @@ import org.pf4j.PluginException;
 import java.util.List;
 
 public interface EnvironnementConnectorPlugin extends ExtensionPoint {
-    public List<EnvironnementDiscoverDto> discoverFromApp(String app, List<NormeDiscoverDto> norms) throws PluginException;
+    public List<EnvironnementDiscoverDto> discoverFromApp(String app, String appName, List<NormeDiscoverDto> norms) throws PluginException;
 }
