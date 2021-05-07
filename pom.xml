@@ -14,9 +14,9 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray-informatique-cdc</id>
-            <name>informatique-cdc</name>
-            <url>https://api.bintray.com/maven/informatique-cdc/informatique-cdc/ebad-plugin/;publish=1</url>
+            <id>github</id>
+            <name>GitHub Informatique-CDC Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/informatique-cdc/ebad-plugin</url>
         </repository>
     </distributionManagement>
 
